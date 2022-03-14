@@ -1,0 +1,3 @@
+[submodule "multilabel/third_party/BalancedLossNLP"]
+	path = multilabel/third_party/BalancedLossNLP
+	url = github.com:Roche/BalancedLossNLP.git
