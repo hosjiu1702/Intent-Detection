@@ -136,4 +136,3 @@ vqc/third_party/*
 **/wandb/*
 **/logs/
 **/.logs/
-**/models/
