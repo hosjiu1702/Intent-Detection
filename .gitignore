@@ -129,5 +129,8 @@ dmypy.json
 .pyre/
 
 multilabel/tensorboard/
-vqc/results/
-**/checkpoint/
+vqc/results/*
+vqc/wandb/*
+vqc/third_party/*
+**/checkpoint/*
+**/wandb/*
