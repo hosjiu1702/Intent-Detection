@@ -134,3 +134,7 @@ vqc/wandb/*
 vqc/third_party/*
 **/checkpoint/*
 **/wandb/*
+**/logs/
+**/.logs/
+**/models/
+**/data/
