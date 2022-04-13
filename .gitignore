@@ -136,3 +136,4 @@ vqc/third_party/*
 **/wandb/*
 **/logs/
 **/.logs/
+**/vi/
