@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bokeh Plot</title>
+    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.3.min.js"></script>
+    <script type="text/javascript">
+        Bokeh.set_log_level("info");
+    </script>
+  </head>
+  <body>
+    <div class="bk-root" id="c87d6600-e032-4c49-8ebe-5c827d57438e" data-root-id="3819"></div>
+  
+    <script type="application/json" id="4088">
+      {"c5939530-7d6a-4b2b-9207-d349ee613f9f":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"3830"}],"center":[{"id":"3832"},{"id":"3836"},{"id":"3854"}],"height":250,"left":[{"id":"3833"}],"renderers":[{"id":"3843"},{"id":"3861"},{"id":"3878"}],"title":{"id":"3820"},"toolbar":{"id":"3837"},"toolbar_location":null,"x_range":{"id":"3822"},"x_scale":{"id":"3826"},"y_range":{"id":"3824"},"y_scale":{"id":"3828"}},"id":"3819","subtype":"Figure","type":"Plot"},{"attributes":{"range":{"id":"3822"}},"id":"3856","type":"Dodge"},{"attributes":{},"id":"3828","type":"LinearScale"},{"attributes":{"range":{"id":"3822"},"value":-0.25},"id":"3838","type":"Dodge"},{"attributes":{},"id":"3850","type":"CategoricalTickFormatter"},{"attributes":{"source":{"id":"3818"}},"id":"3862","type":"CDSView"},{"attributes":{},"id":"3824","type":"Range1d"},{"attributes":{},"id":"3851","type":"AllLabels"},{"attributes":{"coordinates":null,"group":null,"text":"Models Benchmark (w/ diff vectorizer)"},"id":"3820","type":"Title"},{"attributes":{"coordinates":null,"formatter":{"id":"3850"},"group":null,"major_label_policy":{"id":"3851"},"ticker":{"id":"3831"}},"id":"3830","type":"CategoricalAxis"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#c9d9d3"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#c9d9d3"},"line_alpha":{"value":0.1},"line_color":{"value":"#c9d9d3"},"top":{"field":"tfidf"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3838"}}},"id":"3841","type":"VBar"},{"attributes":{"fill_color":{"value":"#718dbf"},"hatch_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"field":"sbert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3856"}}},"id":"3858","type":"VBar"},{"attributes":{"source":{"id":"3818"}},"id":"3844","type":"CDSView"},{"attributes":{"label":{"value":"TF-IDF (Baseline)"},"renderers":[{"id":"3843"}]},"id":"3855","type":"LegendItem"},{"attributes":{"fill_color":{"value":"#c9d9d3"},"hatch_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"field":"tfidf"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3838"}}},"id":"3840","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#718dbf"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#718dbf"},"line_alpha":{"value":0.1},"line_color":{"value":"#718dbf"},"top":{"field":"sbert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3856"}}},"id":"3859","type":"VBar"},{"attributes":{},"id":"3853","type":"Selection"},{"attributes":{},"id":"3837","type":"Toolbar"},{"attributes":{"label":{"value":"PhoBERT-base (No FT)"},"renderers":[{"id":"3878"}]},"id":"3889","type":"LegendItem"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#e84d60"},"hatch_alpha":{"value":0.1},"hatch_color":{"value":"#e84d60"},"line_alpha":{"value":0.1},"line_color":{"value":"#e84d60"},"top":{"field":"phobert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3873"}}},"id":"3876","type":"VBar"},{"attributes":{"fill_color":{"value":"#e84d60"},"hatch_color":{"value":"#e84d60"},"line_color":{"value":"#e84d60"},"top":{"field":"phobert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3873"}}},"id":"3875","type":"VBar"},{"attributes":{"coordinates":null,"data_source":{"id":"3818"},"glyph":{"id":"3840"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3842"},"nonselection_glyph":{"id":"3841"},"view":{"id":"3844"}},"id":"3843","type":"GlyphRenderer"},{"attributes":{},"id":"3831","type":"CategoricalTicker"},{"attributes":{},"id":"3847","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"3830"},"coordinates":null,"grid_line_color":null,"group":null,"ticker":null},"id":"3832","type":"Grid"},{"attributes":{"data":{"botnames":["sunlaw","lamhaian","giang.nguyen"],"phobert":[0.59,0.22,0.31],"sbert":[0.81,0.39,0.48],"tfidf":[0.65,0.23,0.26]},"selected":{"id":"3853"},"selection_policy":{"id":"3852"}},"id":"3818","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#e84d60"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#e84d60"},"line_alpha":{"value":0.2},"line_color":{"value":"#e84d60"},"top":{"field":"phobert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3873"}}},"id":"3877","type":"VBar"},{"attributes":{},"id":"3848","type":"AllLabels"},{"attributes":{"label":{"value":"Vietnamese SBERT (No FT)"},"renderers":[{"id":"3861"}]},"id":"3872","type":"LegendItem"},{"attributes":{},"id":"3852","type":"UnionRenderers"},{"attributes":{"source":{"id":"3818"}},"id":"3879","type":"CDSView"},{"attributes":{"range":{"id":"3822"},"value":0.25},"id":"3873","type":"Dodge"},{"attributes":{},"id":"3826","type":"CategoricalScale"},{"attributes":{"axis_label":"f1 micro","coordinates":null,"formatter":{"id":"3847"},"group":null,"major_label_policy":{"id":"3848"},"ticker":{"id":"3834"}},"id":"3833","type":"LinearAxis"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#c9d9d3"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#c9d9d3"},"line_alpha":{"value":0.2},"line_color":{"value":"#c9d9d3"},"top":{"field":"tfidf"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3838"}}},"id":"3842","type":"VBar"},{"attributes":{"axis":{"id":"3833"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"3836","type":"Grid"},{"attributes":{},"id":"3834","type":"BasicTicker"},{"attributes":{"coordinates":null,"group":null,"items":[{"id":"3855"},{"id":"3872"},{"id":"3889"}]},"id":"3854","type":"Legend"},{"attributes":{"coordinates":null,"data_source":{"id":"3818"},"glyph":{"id":"3858"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3860"},"nonselection_glyph":{"id":"3859"},"view":{"id":"3862"}},"id":"3861","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#718dbf"},"hatch_alpha":{"value":0.2},"hatch_color":{"value":"#718dbf"},"line_alpha":{"value":0.2},"line_color":{"value":"#718dbf"},"top":{"field":"sbert"},"width":{"value":0.2},"x":{"field":"botnames","transform":{"id":"3856"}}},"id":"3860","type":"VBar"},{"attributes":{"factors":["sunlaw","lamhaian","giang.nguyen"],"range_padding":0.1},"id":"3822","type":"FactorRange"},{"attributes":{"coordinates":null,"data_source":{"id":"3818"},"glyph":{"id":"3875"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"3877"},"nonselection_glyph":{"id":"3876"},"view":{"id":"3879"}},"id":"3878","type":"GlyphRenderer"}],"root_ids":["3819"]},"title":"Bokeh Application","version":"2.4.3"}}
+    </script>
+    <script type="text/javascript">
+      (function() {
+        const fn = function() {
+          Bokeh.safely(function() {
+            (function(root) {
+              function embed_document(root) {
+              const docs_json = document.getElementById('4088').textContent;
+              const render_items = [{"docid":"c5939530-7d6a-4b2b-9207-d349ee613f9f","root_ids":["3819"],"roots":{"3819":"c87d6600-e032-4c49-8ebe-5c827d57438e"}}];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+              }
+              if (root.Bokeh !== undefined) {
+                embed_document(root);
+              } else {
+                let attempts = 0;
+                const timer = setInterval(function(root) {
+                  if (root.Bokeh !== undefined) {
+                    clearInterval(timer);
+                    embed_document(root);
+                  } else {
+                    attempts++;
+                    if (attempts > 100) {
+                      clearInterval(timer);
+                      console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                    }
+                  }
+                }, 10, root)
+              }
+            })(window);
+          });
+        };
+        if (document.readyState != "loading") fn();
+        else document.addEventListener("DOMContentLoaded", fn);
+      })();
+    </script>
+  </body>
+</html>
